@@ -1,0 +1,27 @@
+{
+  "name": "decodelabs-full-stack-project-2",
+  "version": "1.0.0",
+  "description": "DecodeLabs Full Stack Development Industrial Training Kit - Project 2: Backend API Development",
+  "main": "src/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node tests/api.test.js"
+  },
+  "keywords": [
+    "rest-api",
+    "express",
+    "decodelabs",
+    "backend",
+    "node"
+  ],
+  "author": "DecodeLabs Student",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0"
+  }
+}
